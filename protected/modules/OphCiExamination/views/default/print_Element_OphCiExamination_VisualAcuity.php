@@ -22,7 +22,7 @@
         <?php if ($element->hasEye($eye_side)) {
             if ($element->getCombined($eye_side)) { ?>
                     <tr>
-                        <td class="priority-text"><?= $element->getCombined($eye_side) ?></td>
+                        <td class="priority-text">Test change</td>
                     </tr>
             <?php } else { ?>
                     <tr>
